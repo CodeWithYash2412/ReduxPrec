@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.main{
+  border: 1px black solid;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.number{
+  border: 1px black solid;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.btns{
+  border: 1px black solid;
+  display: flex;
+  padding: 10px;
+  width: 20rem;
+  justify-content: space-evenly;
+}
+
+.btns button{
+  width: 40%;
+  height: 30px;
+  background-color: blueviolet;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 20px;
+  cursor: pointer;
+}
